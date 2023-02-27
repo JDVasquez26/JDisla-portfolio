@@ -1,0 +1,34 @@
+.app{
+    height:100vh;
+
+    //all section components inside app
+    .sections{
+        width:100%;
+// calculating the height of each section depending on the ever present topbar
+        height: calc(100vh - 70px);
+        background-color: lightseagreen;
+        //make content relative to top bar and start at 70px
+        position: relative;
+        top: 70px;
+        //for scrolling after clicking the anchor in topbar; snaps slowly
+        scroll-behavior: smooth;
+        //scrolling snapply in the y-axis
+        scroll-snap-type: y mandatory;
+        //for no side bar on y-axis (x-axis is in the html)
+        scrollbar-width: none; //for firefox
+        //chrome, safari, etc
+        &::-webkit-scrollbar{
+            display:none;
+        }
+
+
+        //for each element inside sections give them 100 width & relative height to the topbar
+        //creates sections and so scroll bar appears
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            //when snapping, it goes to the start(related to line14
+            scroll-snap-align: start;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.menu{
+    width: 300px;
+    height: 100vh;
+    background-color: $mainColor;
+    position: fixed;
+    top: 0;
+    right: -300px; //bc our width is 300 it'll be go back to 0
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+
+    //if there's an active class, its going to be zero width, this means we need to
+//set menu state in the component inside App.jsx & Menu.jsx
+    &.active{
+        right: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 25px;
+        font-weight: 300;
+        color: white;
+        //so that testimonial does not change the width of meny
+        width:60%;
+
+        li{
+            margin-bottom: 25px;
+
+            a{
+                font-size: inherit;
+                color:inherit;
+                text-decoration: none;
+            }
+//inside the lists, so for each list inside unordered list
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
