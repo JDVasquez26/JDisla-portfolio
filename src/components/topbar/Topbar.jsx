@@ -3,6 +3,7 @@ import './topbar.scss'
 
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Topbar( {menuOpen, setMenuOpen} ) {
   return (

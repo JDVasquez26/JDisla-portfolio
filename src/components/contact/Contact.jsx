@@ -1,6 +1,8 @@
 import React, { useEffect, useState  } from 'react'
 import emailjs from '@emailjs/browser';
 import './contact.scss';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 export default function Contact() {
@@ -59,7 +61,19 @@ export default function Contact() {
       </div>
       <div className="right">
       {status && renderAlert()}
-        <h2>Contact Me</h2>
+        <h2>Contact Me.</h2>
+        <div className="div"
+        style={{diplay:"flex"}}
+        >
+          <a 
+          style={{textDecoration:"none"}}
+          href='https://www.linkedin.com/in/jesthine-disla/'><LinkedInIcon></LinkedInIcon></a>
+                {"               "}
+          <a 
+          style={{textDecoration:"none"}}
+          href='https://github.com/JDVasquez26'><GitHubIcon ></GitHubIcon></a>
+        </div>
+        
         <form onSubmit={handleSubmit}>
         <input type="text" value={values.fullName}  name="fullName" placeholder="Full Name" onChange={handleChange}/>
           <input type="text" value={values.email} name="email" placeholder="Email" onChange={handleChange}/>
