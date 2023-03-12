@@ -1,2 +1,12 @@
 //main color
 $mainColor: darkblue;
+
+
+$width:768px;
+
+//function using sass for creating a media query
+@mixin mobile{
+    @media (max-width: #{$width}){
+        @content
+    }
+}
