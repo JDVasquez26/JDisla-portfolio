@@ -62,15 +62,11 @@ export default function Contact() {
       <div className="right">
       {status && renderAlert()}
         <h2>Contact Me.</h2>
-        <div className="div"
-        style={{diplay:"flex"}}
+        <div 
         >
           <a 
-          style={{textDecoration:"none"}}
           href='https://www.linkedin.com/in/jesthine-disla/'><LinkedInIcon></LinkedInIcon></a>
-                {"               "}
           <a 
-          style={{textDecoration:"none"}}
           href='https://github.com/JDVasquez26'><GitHubIcon ></GitHubIcon></a>
         </div>
         
