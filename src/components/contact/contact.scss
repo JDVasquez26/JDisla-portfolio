@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact{
-    background-color: white;
+    // background-color: white;
     display: flex; //this flex is divided by 2; left flex:1; right flex:1.
     @include mobile {
       flex-direction: column;
@@ -68,7 +68,7 @@
                 width: 150px;
                 height: 30px;
                 color: white;
-                background-color: crimson;
+                background-color: rgb(123, 9, 123);
                 border: none;
                 border-radius: 10px;
                 font-weight: 500;

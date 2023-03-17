@@ -78,13 +78,13 @@ export default function Works() {
       </div>
       
       <img
-        src="assets/arrow.png"
+        src="assets/right-arrow.png"
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/arrow.png"
+        src="assets/right-arrow.png"
         className="arrow right"
         alt=""
         onClick={() => handleClick()} //could have "right"inside, but it could be empty as well

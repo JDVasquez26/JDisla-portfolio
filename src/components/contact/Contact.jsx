@@ -1,8 +1,9 @@
-import React, { useEffect, useState  } from 'react'
+import React, { useContext, useEffect, useState  } from 'react'
 import emailjs from '@emailjs/browser';
 import './contact.scss';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { ThemeContext } from '../../context';
 
 
 export default function Contact() {
@@ -18,6 +19,9 @@ export default function Contact() {
   const serviceID = process.env.REACT_APP_serviceID;
   const templateID = process.env.REACT_APP_templateID;
   const publicKey = process.env.REACT_APP_publicKey;
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault(); // prevents the page from reloading when you hit “Send”

@@ -3,9 +3,10 @@ import './topbar.scss'
 
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 export default function Topbar( {menuOpen, setMenuOpen} ) {
+
   return (
     //concatnating 'topbar active' when hamburger is clicked it'll have set opposite state
     <div className={'topbar ' + (menuOpen && 'active')} > 
@@ -20,6 +21,11 @@ export default function Topbar( {menuOpen, setMenuOpen} ) {
                     <MailIcon className='icon'/>
                     <span>jesthinedisla@gmail.com</span>
                 </div>
+                <div className="itemContainer">
+                    <ContactMailIcon className='icon'/>
+                    <span><a style={{textDecoration:"none"}}href="#contact">Contact</a></span>
+                </div>
+                
             </div>
             <div className="right">
                 <div className="hamburger" onClick={() =>setMenuOpen(!menuOpen)}>

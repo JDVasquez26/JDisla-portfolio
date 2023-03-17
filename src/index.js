@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { ThemeProvider } from './context';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -9,11 +10,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //be quite useful), but it was messing with the iTYPE in intro
 // root.render(
 //   <React.StrictMode>
-//     <App />
+//     <ThemeProvider>
+//        <App />
+//     </ThemeProvider>
 //   </React.StrictMode>
 // );
+
+
 root.render(
-  <App />
+  <ThemeProvider>
+     <App />
+  </ThemeProvider>
+ 
 );
 
 
