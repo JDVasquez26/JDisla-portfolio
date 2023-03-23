@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JDVasquez26/portfolio-website/static/css/main.13d8bdae.css",
+    "main.js": "/JDVasquez26/portfolio-website/static/js/main.aaf1f405.js",
+    "index.html": "/JDVasquez26/portfolio-website/index.html",
+    "main.13d8bdae.css.map": "/JDVasquez26/portfolio-website/static/css/main.13d8bdae.css.map",
+    "main.aaf1f405.js.map": "/JDVasquez26/portfolio-website/static/js/main.aaf1f405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13d8bdae.css",
+    "static/js/main.aaf1f405.js"
+  ]
+}
