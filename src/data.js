@@ -43,18 +43,21 @@ export const featuredPortfolio = [
       title: "Marketplace App",
       img:
         "/assets/ezstack.png",
+        link:""
     },
     {
       id: 2,
       title: "E-commerce App",
       img:
         "/assets/soulshopper.png",
+        link:""
     },
     {
       id: 3,
       title: "Google Translate Clone",
       img:
         "/assets/googletranclone.png",
+      link: "https://jdvasquez26.github.io/Google-translate-clone/"
     }
     // {
     //   id: 4,

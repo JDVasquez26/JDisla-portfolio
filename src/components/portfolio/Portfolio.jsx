@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from "react-router-dom";
 import "./portfolio.scss"
 import PortfolioList from '../portfolioList/PortfolioList';
 import {
@@ -75,18 +76,26 @@ switch (selected) {
           active={selected === item.id}
           setSelected={setSelected}
           id={item.id}
+          key={item.id}
           />
         ))}
       </ul>
       <div className="container">
         
       {data && data.length ? data.map((d) => (
-          <div className="item">
+          <div 
+          className="item"
+          key={d.id}
+          >
+            
             <img
               src={d.img}
               alt=""
             />
-            <h3>{d.title}</h3>
+            {/* <h3>{d.title}</h3> */}
+            <a href={d.link} atl=""> 
+            {d.title}
+            </a>
           </div>
         )): <h1>Coming Soon</h1>}
         
