@@ -80,7 +80,7 @@ switch (selected) {
       </ul>
       <div className="container">
         
-      {data.map((d) => (
+      {data && data.length ? data.map((d) => (
           <div className="item">
             <img
               src={d.img}
@@ -88,7 +88,7 @@ switch (selected) {
             />
             <h3>{d.title}</h3>
           </div>
-        ))}
+        )): <h1>Coming Soon</h1>}
         
       </div>
     </div>

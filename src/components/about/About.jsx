@@ -25,9 +25,9 @@ const About = () => {
         <p className="a-desc">
         I'm a Frontend / Fullstack developer dedicated to learning, 
         problem-solving, and designing modern applications. I have 
-        experience creating dynamic single-page applications with responsive UI's built with clean functionality.
-        Skilled in using backend frameworks to create services to deliver and manage 
-        data through relational databases.
+        experience creating dynamic single-page applications with responsive UIs with clean functionality.
+        {/* Skilled in using backend frameworks to create services to deliver and manage 
+        data through relational databases. */}
         </p>
         {/* <h3 className='skills-header'>Technologies I Use</h3> */}
         <span 
@@ -46,8 +46,8 @@ const About = () => {
                 <h3>Frontend:</h3>
                 <li>JavaScript ES6</li>
                 <li>React</li>
-                <li>JSX / TSX</li>
-                <li>Redux</li>
+                {/* <li>JSX / TSX</li> */}
+                <li>Redux Toolkit</li>
                 <li>CSS3</li>
                 <li>Figma</li>
                 <li>HTML5</li>
@@ -59,7 +59,7 @@ const About = () => {
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>PostgreSQL</li>
-                <li>SQL Server</li>
+                {/* <li>SQL Server</li> */}
                 <li>Database Design</li>
               </ul>
             </div>
@@ -70,8 +70,8 @@ const About = () => {
                 <li>Responsive Design</li>
                 <li>AJAX</li>
                 <li>Git/Github</li>
-                <li>Netlify</li>
-                <li>Heroku</li>
+                {/* <li>Netlify</li>
+                <li>Heroku</li> */}
               </ul>
             </div>
           </div>
