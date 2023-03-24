@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://github.com/JDVasquez26/portfolio-website",
+  "homepage": "https://github.io/JDVasquez26/portfolio-website",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
