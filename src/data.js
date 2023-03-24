@@ -3,7 +3,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Marketplace App",
       img:
-        "/assets/ezstack.png",
+        "assets/ezstack.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
         
     },
@@ -11,14 +11,14 @@ export const featuredPortfolio = [
       id: 2,
       title: "E-commerce App",
       img:
-        "/assets/soulshopper.png",
+        "assets/soulshopper.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
     },
     {
       id: 3,
       title: "Google Translate Clone",
       img:
-        "/assets/googletranclone.png",
+        "assets/googletranclone.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
     },
     // {
@@ -46,21 +46,21 @@ export const featuredPortfolio = [
       id: 1,
       title: "Marketplace App",
       img:
-        "/assets/ezstack.png",
+        "assets/ezstack.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
     },
     {
       id: 2,
       title: "E-commerce App",
       img:
-        "/assets/soulshopper.png",
+        "assets/soulshopper.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
     },
     {
       id: 3,
       title: "Google Translate Clone",
       img:
-        "/assets/googletranclone.png",
+        "assets/googletranclone.png",
       link: "https://jdvasquez26.github.io/Google-translate-clone/"
     }
     // {
