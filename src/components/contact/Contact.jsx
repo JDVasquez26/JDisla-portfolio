@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contact.scss';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { ThemeContext } from '../../context';
 
 
@@ -72,6 +73,8 @@ export default function Contact() {
           href='https://www.linkedin.com/in/jesthine-disla/'><LinkedInIcon></LinkedInIcon></a>
           <a 
           href='https://github.com/JDVasquez26'><GitHubIcon ></GitHubIcon></a>
+          <a 
+          href='https://calendly.com/jesthinedisla/30min'><CalendarMonthIcon></CalendarMonthIcon></a>
         </div>
         
         <form onSubmit={handleSubmit}>

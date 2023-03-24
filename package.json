@@ -1,8 +1,8 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://github.io/JDVasquez26/JDisla-portfolio",
-  "private": false,
+  "homepage": "https://JDVasquez26.github.io/JDisla-portfolio",
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
