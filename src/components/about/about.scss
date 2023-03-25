@@ -4,7 +4,9 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    // background-color: white;
+    @include mobile{
+      overflow: hidden;
+    }
 
     .a-left {
         flex: 1;

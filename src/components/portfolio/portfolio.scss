@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include mobile{
+        overflow: hidden;
+      }
 
     h1{
         font-size: 50px;

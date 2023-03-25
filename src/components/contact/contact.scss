@@ -5,15 +5,16 @@
     display: flex; //this flex is divided by 2; left flex:1; right flex:1.
     @include mobile {
       flex-direction: column;
+      overflow: hidden;
     }
 
     .left {
         flex: 1;
         overflow: hidden;
         @include mobile {
-          flex:0.5;
+          flex:0.3;
           display: flex;
-          align-items: flex-start;
+          align-items: flex-end;
           // justify-content: center;
           justify-content:center;
         }
@@ -35,9 +36,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         @include mobile {
-          flex:0.5
+          flex:0.7
         }
     
         h2 {
