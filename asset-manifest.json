@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/JDisla-portfolio/static/css/main.13d8bdae.css",
-    "main.js": "/JDisla-portfolio/static/js/main.8ef5ffb4.js",
+    "main.css": "/JDisla-portfolio/static/css/main.08fd37be.css",
+    "main.js": "/JDisla-portfolio/static/js/main.1fd008bb.js",
     "index.html": "/JDisla-portfolio/index.html",
-    "main.13d8bdae.css.map": "/JDisla-portfolio/static/css/main.13d8bdae.css.map",
-    "main.8ef5ffb4.js.map": "/JDisla-portfolio/static/js/main.8ef5ffb4.js.map"
+    "main.08fd37be.css.map": "/JDisla-portfolio/static/css/main.08fd37be.css.map",
+    "main.1fd008bb.js.map": "/JDisla-portfolio/static/js/main.1fd008bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d8bdae.css",
-    "static/js/main.8ef5ffb4.js"
+    "static/css/main.08fd37be.css",
+    "static/js/main.1fd008bb.js"
   ]
 }
