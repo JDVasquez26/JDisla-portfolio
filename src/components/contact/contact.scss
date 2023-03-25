@@ -4,7 +4,7 @@
     // background-color: white;
     display: flex; //this flex is divided by 2; left flex:1; right flex:1.
     @include mobile {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .left {
