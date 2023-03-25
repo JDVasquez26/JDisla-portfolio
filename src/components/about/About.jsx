@@ -30,7 +30,8 @@ const About = () => {
         data through relational databases. */}
         </p>
         {/* <h3 className='skills-header'>Technologies I Use</h3> */}
-        <span 
+        <span
+        className="tech-stack" 
           style={{display:"flex", justifyContent:"space-evenly", overflow:"hidden", marginTop:"20px"}}
           >
           <img style={{ width: 30, height: 30 }} src="assets/javascript.png" alt="" />
