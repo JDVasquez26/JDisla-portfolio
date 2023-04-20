@@ -16,7 +16,7 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Musika",
+      title: "Music App - Musika",
       img:
         "assets/musika.png",
         link:"https://musikaa.netlify.app/"
@@ -65,8 +65,8 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Musika",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      title: "Music App - Musika",
+      img: "assets/musika.png",
       link:"https://musikaa.netlify.app/"
     },
     // {
