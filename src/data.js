@@ -16,10 +16,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Google Translate Clone",
+      title: "Musika",
       img:
-        "assets/googletranclone.png",
-        link:"https://jdvasquez26.github.io/Google-translate-clone/"
+        "assets/musika.png",
+        link:"https://musikaa.netlify.app/"
     },
     // {
     //   id: 4,
@@ -62,12 +62,13 @@ export const featuredPortfolio = [
       img:
         "assets/googletranclone.png",
       link: "https://jdvasquez26.github.io/Google-translate-clone/"
-    }
-    // {
-    //   id: 4,
-    //   title: "Web Relax App",
-    //   img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    // },
+    },
+    {
+      id: 4,
+      title: "Musika",
+      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      link:"https://musikaa.netlify.app/"
+    },
     // {
     //   id: 5,
     //   title: "Web Design",
