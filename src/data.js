@@ -4,7 +4,7 @@ export const featuredPortfolio = [
       title: "Marketplace App",
       img:
         "assets/ezstack.png",
-        link:"https://jdvasquez26.github.io/Google-translate-clone/"
+        link:"https://www.youtube.com/watch?v=ZaRFGYO2HQ4&list=PLx0iOsdUOUmkAw0zV4kJO8Ci80W5muK7R&index=16&themeRefresh=1"
         
     },
     {
@@ -47,7 +47,7 @@ export const featuredPortfolio = [
       title: "Marketplace App",
       img:
         "assets/ezstack.png",
-        link:"https://jdvasquez26.github.io/Google-translate-clone/"
+        link:"https://www.youtube.com/watch?v=ZaRFGYO2HQ4&list=PLx0iOsdUOUmkAw0zV4kJO8Ci80W5muK7R&index=16&themeRefresh=1"
     },
     {
       id: 2,
