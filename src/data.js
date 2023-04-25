@@ -69,11 +69,11 @@ export const featuredPortfolio = [
       img: "assets/musika.png",
       link:"https://musikaa.netlify.app/"
     },
-    // {
-    //   id: 5,
-    //   title: "Web Design",
-    //   img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    // },
+    {
+      id: 5,
+      title: "Fitness App",
+      img: "assets/jestfit.png",
+    },
     // {
     //   id: 6,
     //   title: "Web Banking App",
