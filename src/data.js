@@ -8,11 +8,15 @@ export const featuredPortfolio = [
         
     },
     {
+      // id: 2,
+      // title: "E-commerce App",
+      // img:
+      //   "assets/soulshopper.png",
+      //   link:"https://jdvasquez26.github.io/Google-translate-clone/"
       id: 2,
-      title: "E-commerce App",
-      img:
-        "assets/soulshopper.png",
-        link:"https://jdvasquez26.github.io/Google-translate-clone/"
+      title: "Fitness App",
+      img: "assets/jestfit.png",
+      link:"https://jestfit.netlify.app/"
     },
     {
       id: 3,
@@ -73,6 +77,7 @@ export const featuredPortfolio = [
       id: 5,
       title: "Fitness App",
       img: "assets/jestfit.png",
+      link:"https://jestfit.netlify.app/"
     },
     // {
     //   id: 6,
