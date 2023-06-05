@@ -60,21 +60,21 @@ export const featuredPortfolio = [
         "assets/soulshopper.png",
         link:"https://jdvasquez26.github.io/Google-translate-clone/"
     },
+    // {
+    //   id: 3,
+    //   title: "Google Translate Clone",
+    //   img:
+    //     "assets/googletranclone.png",
+    //   link: "https://jdvasquez26.github.io/Google-translate-clone/"
+    // },
     {
       id: 3,
-      title: "Google Translate Clone",
-      img:
-        "assets/googletranclone.png",
-      link: "https://jdvasquez26.github.io/Google-translate-clone/"
-    },
-    {
-      id: 4,
       title: "Music App - Musika",
       img: "assets/musika.png",
       link:"https://musikaa.netlify.app/"
     },
     {
-      id: 5,
+      id: 4,
       title: "Fitness App",
       img: "assets/jestfit.png",
       link:"https://jestfit.netlify.app/"
